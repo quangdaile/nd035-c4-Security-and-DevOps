@@ -1,0 +1,52 @@
+2024-09-08 10:00:16,386 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on MacBook-Pro-cua-Thom.local with PID 9260 (/Users/thom/Downloads/starter_code/target/classes started by thom in /Users/thom/Downloads/starter_code)
+2024-09-08 10:00:16,391 DEBUG com.example.demo.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2024-09-08 10:00:16,392 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2024-09-08 10:00:16,974 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-09-08 10:00:16,974 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2024-09-08 10:00:17,017 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-09-08 10:00:17,117 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-09-08 10:00:17,183 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-09-08 10:00:17,209 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-09-08 10:00:17,232 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2024-09-08 10:00:17,232 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2024-09-08 10:00:17,298 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-09-08 10:00:17,347 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-09-08 10:00:17,661 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@72c9ebfa'
+2024-09-08 10:00:18,195 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 7.025 seconds (JVM running for 7.229)
+2024-09-08 10:14:13,332 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 10:14:13,406 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] Start creating user with username: Marry.
+2024-09-08 10:14:13,492 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] Successfully created user
+2024-09-08 10:15:16,759 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-5] Start creating user with username: Marry.
+2024-09-08 10:15:16,760 ERROR com.example.demo.controllers.UserController [http-nio-8080-exec-5] Failed to create user due to short password length or confirm password does not match with password.
+2024-09-08 10:25:47,580 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m30s183ms).
+2024-09-08 11:44:31,080 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m13s481ms).
+2024-09-08 13:04:44,996 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m13s916ms).
+2024-09-08 13:49:06,115 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=44m21s119ms).
+2024-09-08 14:14:05,235 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown initiated...
+2024-09-08 14:14:05,238 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown completed.
+2024-09-08 14:14:11,948 INFO com.example.demo.SareetaApplication [main] Starting SareetaApplication on MacBook-Pro-cua-Thom.local with PID 16265 (/Users/thom/Downloads/starter_code/target/classes started by thom in /Users/thom/Downloads/starter_code)
+2024-09-08 14:14:11,953 DEBUG com.example.demo.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2024-09-08 14:14:11,953 INFO com.example.demo.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2024-09-08 14:14:12,519 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2024-09-08 14:14:12,520 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2024-09-08 14:14:12,589 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2024-09-08 14:14:12,702 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-09-08 14:14:12,767 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-09-08 14:14:12,790 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2024-09-08 14:14:12,813 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2024-09-08 14:14:12,814 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2024-09-08 14:14:12,879 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2024-09-08 14:14:12,930 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-09-08 14:14:13,251 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@696fad31'
+2024-09-08 14:14:13,780 INFO com.example.demo.SareetaApplication [main] Started SareetaApplication in 7.038 seconds (JVM running for 7.235)
+2024-09-08 14:15:32,856 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-08 14:15:32,924 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] Start creating user with username: Marry.
+2024-09-08 14:15:33,019 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-2] Successfully created user
+2024-09-08 14:16:16,502 INFO com.example.demo.controllers.UserController [http-nio-8080-exec-4] Start creating user with username: Marry.
+2024-09-08 14:16:16,502 ERROR com.example.demo.controllers.UserController [http-nio-8080-exec-4] Failed to create user due to short password length or confirm password does not match with password.
+2024-09-08 14:43:51,908 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown initiated...
+2024-09-08 14:43:51,909 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown completed.
